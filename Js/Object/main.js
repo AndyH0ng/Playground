@@ -37,4 +37,3 @@ console.log(object.number);     // 1
 // 프로퍼티 삭제
 delete object.number;
 console.log(object.number);     // undefined
-

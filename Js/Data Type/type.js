@@ -21,4 +21,3 @@ console.log(typeof --foo);  // number
 
 foo += '1';
 console.log(typeof foo);    // string
-
