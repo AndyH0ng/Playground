@@ -9,6 +9,7 @@
 
 void constValue(void) {
     int a, b;
+    // pa가 가리키고 있는 변수의 값을 바꾸지 마라!
     const int *pa = &a;
     // *pa = 3;
     pa = &b;
@@ -16,6 +17,7 @@ void constValue(void) {
 
 void constPointer(void) {
     int a, b;
+    // pa의 값을 바꾸지 마라!
     int* const pa = &a;
     *pa = 3;
     // pa = &b;

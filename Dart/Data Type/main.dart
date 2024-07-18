@@ -2,9 +2,6 @@
 //  데이터 타입
 //  Data Type
 //
-//  Dart는 정적 타입 언어이지만, 타입 추론을 지원한다.
-//
-//
 //  Created by 홍준우 on 6/29/24.
 //
 
@@ -61,6 +58,7 @@ void constantValue() {
     const double atm = 1.01325 * bar;
     // const name4;
     // name4 = 'Bob';
+    const mol = 6.02e23;
 }
 
 /*
